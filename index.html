@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <title>LINES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="css/fontfaces.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="css/game.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="css/mobile.css" media="screen" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    
+    <div class="container" id="msg"></div>
+    <div class="container"><div id="game">
+        <div class="game-board" id="game-board"  ></div>
+	<div id="square-size" class="square-size"></div>
+	<div id="square-size-checkers" class="square-size"></div>
+	<div id="square-size-ten" class="square-size"></div></div></div>
+    <div class="container"><div id="score" class="clearfix">
+            <div class="you"><span id="you"></span>: <span class="red" id="you_score"></span></div>
+            <button id="clear"></button>
+        </div></div>
+    </div>
+    <div id="error"></div>
+    <script type="application/javascript">
+    </script>
+    <script src="lib/modernizr.custom.js"></script>
+    <script src="lib/astar.js"></script>
+
+    <script src="scripts/loader.js"></script>
+    <script src="scripts/game.logic.js"></script>
+    <script src="scripts/display.canvas.js"></script>
+
+</body>
+</html>
